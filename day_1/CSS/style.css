@@ -1,0 +1,95 @@
+
+
+body {
+    background-color: #f8faff;
+    font-family: Verdana;
+    margin: 0px;
+    font-size: 1.4vw;
+}
+
+h1 {
+    margin: 0px;
+    padding: 8px;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px rgba(38, 6, 106, 0.5);
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #a593e0;
+    color: aliceblue;
+    display: flex;
+    height: 5.5vh;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 8px;
+}
+.navbutton {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    border: 1.5px solid aliceblue;
+    border-radius: 8%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#main-content > div {
+    width: 90%;
+}
+
+
+h2 {
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+body > footer {
+    background-color: #a593e0;
+    display: flex;
+}
+
+#footer-ul {
+    list-style: none;
+    display: flex;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+img {
+    border-radius: 50%;
+}
